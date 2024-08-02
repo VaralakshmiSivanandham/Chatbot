@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding:0px;
+            margin:0px;
+            box-sizing:border-box;
+        }
+        body{
+            background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOXhNWwA0GlaJ5SBWSGmHIS95CKOGS5oW_EQ&s");
+            background-size: cover;
+        }
+        .solar{
+            height:100vh;
+            display:flex;
+            justify-content: space-evenly;
+            align-items:center;
+            transform:skew(40deg,-4deg);
+            
+        }
+        .circle3{
+            border:1px solid white;
+            height:400px;
+            width:400px;
+            border-radius:50%;
+            display:flex;
+            justify-content: space-evenly;
+            align-items:center;
+            position:relative;
+            animation: rotateplanets 9s linear 0s infinite normal;
+        }
+        .circle2{
+            border:1px solid white;
+            height:300px;
+            width:300px;
+            border-radius:50%;
+            display:flex;
+            justify-content: space-evenly;
+            align-items:center;
+            border-radius:50%;
+            position:relative;
+            animation: rotateplanets 9s linear 0.5s infinite normal;
+               
+        }
+        
+       .circle1{
+            border:1px solid white;
+            height:200px;
+            width:200px;
+            border-radius:50%;
+            display:flex;
+            justify-content: space-evenly;
+            align-items:center;
+            position:relative;
+            animation: rotateplanets 10s linear 0s infinite normal;
+            
+        }
+        .circle4{
+            border:1px solid white;
+            height:500px;
+            width:500px;
+            border-radius:50%;
+            display:flex;
+            justify-content: space-evenly;
+            align-items:center;
+            position:relative;
+            animation: rotateplanets 10s linear 0s infinite normal;
+            
+           
+        }
+        .circle5{
+            border:1px solid white;
+            height:600px;
+            width:600px;
+            border-radius:50%;
+            display:flex;
+            justify-content: space-evenly;
+            align-items:center;
+            position:relative;
+            animation: rotateplanets 10s linear 0s infinite normal;
+        }
+        .circle6{
+            border:1px solid white;
+            height:700px;
+            width:700px;
+            border-radius:50%;
+            display:flex;
+            justify-content: space-evenly;
+            align-items:center;
+            position:relative;
+            animation: rotateplanets 11s linear 0s infinite normal;
+        }
+        .circle7{
+            border:1px solid white;
+            height:800px;
+            width:800px;
+            border-radius:50%;
+            display:flex;
+            justify-content: space-evenly;
+            align-items:center;
+            position:relative;
+            animation: rotateplanets 12s linear 0s infinite normal;
+        }
+        .circle8{
+            border:1px solid white;
+            height:900px;
+            width:900px;
+            border-radius:50%;
+            display:flex;
+            justify-content: space-evenly;
+            align-items:center;
+            position:relative;
+            animation: rotateplanets 13s linear 0s infinite normal;
+        }
+
+        @keyframes rotateplanets{
+            from{
+
+            }
+            to{
+                transform: rotate(360deg);
+            }
+        }
+        .mercury{
+            height:50px;
+            width:50px;
+            background-size: cover;
+            position:absolute;
+            bottom:170px;
+            border-radius: 50%;
+            background-image: url("https://science.nasa.gov/wp-content/uploads/2023/11/mercury-messenger-globe-pia15162.jpg?w=4096&format=jpeg&crop=1");
+        }
+        .venus{
+            height:50px;
+            width:50px;
+            position:absolute;
+            bottom:280px;
+            border-radius: 50%;
+            background-image:url("https://cdn.britannica.com/86/21186-131-2CCA93CC/radar-clouds-Scientists-surface-Venus-computer-image.jpg?w=200&h=200&c=crop");
+            background-size: cover;
+        }
+        .Earth{
+            height:50px;
+            width:50px;
+            position:absolute;
+            bottom:370px;
+            border-radius: 50%;
+            background-image:url("https://images.pexels.com/photos/87651/earth-blue-planet-globe-planet-87651.jpeg");
+            background-size: cover;    
+        }
+        .Mars{
+            height:50px;
+            width:50px;
+            position:absolute;
+            bottom:470px;
+            border-radius: 50%;
+            background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRo0sfBghhyvJ0mC6ONbnM7wi1o_H484LZ9PA&s");
+            background-size: cover; 
+        }
+        .Jupiter{
+            height:50px;
+            width:50px;
+            position:absolute;
+            bottom:570px;
+            border-radius: 50%;
+            background-image:url("https://cdn.britannica.com/84/4284-050-16C7E8C2/Photograph-Jupiter-range-Voyager-1-cloud-bands-February-1-1979.jpg");
+            background-size: cover; 
+
+        }
+        .saturn{
+            height:50px;
+            width:50px;
+            position:absolute;
+            bottom:680px;
+            border-radius: 50%;
+            background-color: burlywood;
+        }
+        .uranus{
+            height:50px;
+            width:50px;
+            position:absolute;
+            bottom:760px;
+            border-radius: 50%;
+            background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLyNWGBcdiWAHuYG--BGS0l-9H6Zzk802_Zg&s");
+            background-size: cover; 
+
+        }
+        
+        
+        .sun{
+            background-color:gold;
+            border-radius: 50%;
+            height:70px;
+            width:70px;
+            border:1px solid orange;
+            box-shadow: 0px 0px 20px gold;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="solar">
+            <div class="circle7">
+                <div class="uranus">
+    
+                </div>
+                <div class="circle6">
+                    <div class="saturn">
+        
+                    </div>
+        <div class="circle5">
+            <div class="Jupiter">
+
+            </div>
+        <div class="circle4">
+             <div class="Mars">
+
+             </div>
+        <div class="circle3">
+            <div class="Earth">
+
+            </div>
+        
+         <div class="circle2">
+            <div class="venus">
+
+            </div>
+        
+        <div class="circle1">
+            <div class="mercury">
+
+            </div>
+                <div class="sun"></div>
+        </div>
+    </div>
+    </div>
+    </div>
+</div>
+</div>
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='https://embed.tawk.to/66ad1de832dca6db2cb95be6/1i4a3plik';
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
+    })();
+    </script>
+    <!--End of Tawk.to Script-->
+</body>
+</html>
